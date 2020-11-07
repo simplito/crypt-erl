@@ -1,0 +1,15 @@
+{application, crypt,
+ [{description, "Erlang port wrapper for unix libcrypt library"},
+  {vsn, "0.1.0"},
+  {registered, [crypt, crypt_sup]},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+  {mod, {crypt_app, []}},
+  {maintainers, []},
+  {licenses, ["MIT"]},
+  {links, []}
+ ]}.
